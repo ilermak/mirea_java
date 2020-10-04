@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="01bd5997-0c49-45a9-a1af-1bf2e124dd1c" name="Default Changelist" comment="" />
+    <list default="true" id="01bd5997-0c49-45a9-a1af-1bf2e124dd1c" name="Default Changelist" comment="))" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,13 +50,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
-    <configuration name="CircleTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex_3.CircleTester" />
+  <component name="RunManager" selected="Application.CompanyTest">
+    <configuration name="Change" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="add_1.Change" />
       <module name="mirea_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex_3.*" />
+          <option name="PATTERN" value="add_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -40,12 +64,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HumanTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex_3.HumanTester" />
+    <configuration name="CompanyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex_7_8.CompanyTest" />
       <module name="mirea_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex_3.*" />
+          <option name="PATTERN" value="ex_7_8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,19 +128,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.HumanTester" />
-      <item itemvalue="Application.CircleTester" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Main (3)" />
+      <item itemvalue="Application.Change" />
+      <item itemvalue="Application.CompanyTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.CompanyTest" />
         <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Change" />
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.HumanTester" />
-        <item itemvalue="Application.CircleTester" />
       </list>
     </recent_temporary>
   </component>
@@ -136,12 +160,28 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="))" />
+    <option name="LAST_COMMIT_MESSAGE" value="))" />
   </component>
   <component name="WindowStateProjectService">
     <state x="393" y="165" key="#Notifications" timestamp="1600616457505">
@@ -156,21 +196,29 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="408" y="219" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1601206098744" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1601206281828">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1601841310753">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1601206281828" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1601206281827">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1601841310753" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1601841310753">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1601206281827" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1601206281827">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1601841310753" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1601841310753">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1601206281827" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1601206281828">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1601841310753" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1601841310753">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1601206281828" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1601841310753" />
+    <state x="441" y="242" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1601207100521">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="441" y="242" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1280.680@0.0.1280.680" timestamp="1601207100521" />
+    <state x="91" y="0" key="new project wizard" timestamp="1601288008180">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="91" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1601288008180" />
   </component>
 </project>
