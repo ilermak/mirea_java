@@ -38,22 +38,22 @@ public class Company {
 
     public void firePercents(int percents)
     {
-        int den = 100 / percents;
+        int num = 100 / percents;
 
         Operators.sort(Comparator.comparing(Employee::getTotal).reversed());
-        int fireNum = Operators.size() / den;
+        int fireNum = Operators.size() / num;
         for (int i = 0; i < fireNum; i++) {
             this.fire("Operator");
         }
 
         Managers.sort(Comparator.comparing(Employee::getTotal).reversed());
-        fireNum = Managers.size() / den;
+        fireNum = Managers.size() / num;
         for (int i = 0; i < fireNum; i++) {
             this.fire("Manager");
         }
 
         TopManagers.sort(Comparator.comparing(Employee::getTotal).reversed());
-        fireNum = TopManagers.size() / den;
+        fireNum = TopManagers.size() / num;
         for (int i = 0; i < fireNum; i++) {
             this.fire("TopManager");
         }
@@ -61,7 +61,7 @@ public class Company {
         System.out.println(percents + "% of employees were laid off");
     }
 
-    public void workOneMonth() {
+    public void work() {
         for (Employee manager : Managers) {
             manager.setTotal(manager.getEmployeePosition().calcSalary(manager.getSalary()));
             income += (manager.getTotal() - manager.getSalary()) * 20;

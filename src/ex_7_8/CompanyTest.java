@@ -18,7 +18,7 @@ public class CompanyTest {
             company.hire(new Employee("TopManager", secondName, (int) (90000 + Math.random() * 10000), new TopManager(company)));
         }
 
-        company.workOneMonth();
+        company.work();
 
         System.out.println("Top highest salaries");
         for (Employee employee : company.getTopSalaryStaff(10))
