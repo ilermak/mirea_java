@@ -61,19 +61,6 @@ public class Company {
         System.out.println(percents + "% of employees were laid off");
     }
 
-    public void work() {
-        for (Employee manager : Managers) {
-            manager.setTotal(manager.getEmployeePosition().calcSalary(manager.getSalary()));
-            income += (manager.getTotal() - manager.getSalary()) * 20;
-        }
-        for (Employee operator : Operators) {
-            operator.setTotal(operator.getEmployeePosition().calcSalary(operator.getSalary()));
-        }
-        for (Employee topManger : TopManagers) {
-            topManger.setTotal(topManger.getEmployeePosition().calcSalary(topManger.getSalary()));
-        }
-    }
-
     public double getIncome() {
         return income;
     }
@@ -106,5 +93,18 @@ public class Company {
             return null;
         }
         return null;
+    }
+    
+    public void work() {
+        for (Employee manager : Managers) {
+            manager.setTotal(manager.getEmployeePosition().calcSalary(manager.getSalary()));
+            income += (manager.getTotal() - manager.getSalary()) * 20;
+        }
+        for (Employee operator : Operators) {
+            operator.setTotal(operator.getEmployeePosition().calcSalary(operator.getSalary()));
+        }
+        for (Employee topManger : TopManagers) {
+            topManger.setTotal(topManger.getEmployeePosition().calcSalary(topManger.getSalary()));
+        }
     }
 }
