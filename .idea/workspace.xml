@@ -48,9 +48,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ex_10" />
+    <property name="settings.editor.selected.configurable" value="project.propGUI" />
   </component>
-  <component name="RunManager" selected="Application.CompanyTest">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Iluuusha\Desktop\учеба\mirea_java\src\ex_10" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main (4)">
     <configuration name="Change" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="add_1.Change" />
       <module name="mirea_java" />
@@ -78,11 +84,11 @@
       </method>
     </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex_4.Main" />
+      <option name="MAIN_CLASS_NAME" value="ex_9.Main" />
       <module name="mirea_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex_4.*" />
+          <option name="PATTERN" value="ex_9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex_5.Main" />
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex_10.Main" />
       <module name="mirea_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex_5.*" />
+          <option name="PATTERN" value="ex_10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,19 +134,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.Main (2)" />
-      <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.Change" />
       <item itemvalue="Application.CompanyTest" />
+      <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.Main (4)" />
+      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.CompanyTest" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Change" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -192,33 +198,53 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="424" y="235" width="432" height="216" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1601205723319" />
+    <state x="214" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1602438203122">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="214" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1602438203122" />
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602437393516">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1602437393516" />
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1602187679546">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1602187679546" />
     <state x="408" y="219" key="Github.ShareDialog" timestamp="1601206098744">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="408" y="219" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1601206098744" />
-    <state width="1237" height="132" key="GridCell.Tab.0.bottom" timestamp="1601842585040">
+    <state width="1237" height="21" key="GridCell.Tab.0.bottom" timestamp="1602446620214">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="132" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1601842585040" />
-    <state width="1237" height="132" key="GridCell.Tab.0.center" timestamp="1601842585040">
+    <state width="1237" height="21" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602446620214" />
+    <state width="1237" height="21" key="GridCell.Tab.0.center" timestamp="1602446620213">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="132" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1601842585040" />
-    <state width="1237" height="132" key="GridCell.Tab.0.left" timestamp="1601842585040">
+    <state width="1237" height="21" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1602446620213" />
+    <state width="1237" height="21" key="GridCell.Tab.0.left" timestamp="1602446620213">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="132" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1601842585040" />
-    <state width="1237" height="132" key="GridCell.Tab.0.right" timestamp="1601842585040">
+    <state width="1237" height="21" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1602446620213" />
+    <state width="1237" height="21" key="GridCell.Tab.0.right" timestamp="1602446620214">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="132" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1601842585040" />
+    <state width="1237" height="21" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1602446620214" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1602439853977">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1602439853977" />
     <state x="441" y="242" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1601207100521">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="441" y="242" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1280.680@0.0.1280.680" timestamp="1601207100521" />
-    <state x="91" y="0" key="new project wizard" timestamp="1601288008180">
+    <state x="91" y="0" key="new project wizard" timestamp="1602186678051">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="91" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1601288008180" />
+    <state x="91" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1602186678051" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1602439723676">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1602439723676" />
   </component>
 </project>

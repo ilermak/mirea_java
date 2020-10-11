@@ -94,7 +94,7 @@ public class Company {
         }
         return null;
     }
-    
+
     public void work() {
         for (Employee manager : Managers) {
             manager.setTotal(manager.getEmployeePosition().calcSalary(manager.getSalary()));
