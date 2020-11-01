@@ -56,7 +56,7 @@
       <recent name="C:\Users\Iluuusha\Desktop\учеба\mirea_java\src\ex_10" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WithoutRegex">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ex_14.Main" />
       <module name="mirea_java" />
@@ -76,6 +76,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ex_13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex_15_16.Main" />
+      <module name="mirea_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex_15_16.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,19 +119,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Threads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex_11.Threads" />
-      <module name="mirea_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ex_11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WithoutRegex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ex_14.WithoutRegex" />
       <module name="mirea_java" />
@@ -134,19 +134,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Threads" />
       <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Regex" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.WithoutRegex" />
+      <item itemvalue="Application.Main (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.WithoutRegex" />
         <item itemvalue="Application.Regex" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Threads" />
       </list>
     </recent_temporary>
   </component>
@@ -198,10 +198,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="424" y="235" width="432" height="216" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1601205723319" />
-    <state x="214" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1603052665679">
+    <state x="214" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1604253361008">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="214" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1603052665679" />
+    <state x="214" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1604253361008" />
     <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602437393516">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -214,22 +214,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="408" y="219" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1601206098744" />
-    <state width="1237" height="43" key="GridCell.Tab.0.bottom" timestamp="1603651460573">
+    <state width="1237" height="125" key="GridCell.Tab.0.bottom" timestamp="1604252968912">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="43" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1603651460573" />
-    <state width="1237" height="43" key="GridCell.Tab.0.center" timestamp="1603651460571">
+    <state width="1237" height="125" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1604252968912" />
+    <state width="1237" height="125" key="GridCell.Tab.0.center" timestamp="1604252968911">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="43" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1603651460571" />
-    <state width="1237" height="43" key="GridCell.Tab.0.left" timestamp="1603651460569">
+    <state width="1237" height="125" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1604252968911" />
+    <state width="1237" height="125" key="GridCell.Tab.0.left" timestamp="1604252968910">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="43" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1603651460569" />
-    <state width="1237" height="43" key="GridCell.Tab.0.right" timestamp="1603651460572">
+    <state width="1237" height="125" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1604252968910" />
+    <state width="1237" height="125" key="GridCell.Tab.0.right" timestamp="1604252968912">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="43" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1603651460572" />
+    <state width="1237" height="125" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1604252968912" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1602439853977">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
