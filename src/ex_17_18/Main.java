@@ -1,53 +1,54 @@
 package ex_17_18;
 
 import java.io.*;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 
 public class Main {
+    static PrintWriter pw;
 
-    static StringBuilder result = new StringBuilder();
-    public static void searchInDir(String path) {
-        File file = new File(path);
-
-        if(file.isDirectory())
-        {
-            for(String t : file.list())
-            {
-                searchInDir(file.getPath() + "\\" + t);
-            }
-        }
-        else if(file.isFile() && file.getPath().endsWith(".java"))
-        {
-            try(BufferedReader reader = new BufferedReader(new FileReader(file.getPath())))
-            {
-                result.append("### " + file.getPath() + "\n" + "```java" + "\n");
-                while(reader.readLine()!= null)
-                {
-                    result.append(reader.readLine() + "\n");
-                }
-                result.append("```" + "\n");
-            } catch (FileNotFoundException e) {
-                System.out.println("file not found");
-                e.printStackTrace();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-
+    static {
+        try {
+            pw = new PrintWriter("result.md");
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
         }
     }
 
-    public static void main(String[] args) {
+    public static void getContents(String path){
+        File file = new File(path);
+        if(file.isDirectory()){
+            String[] contents = file.list();
+            for (String s:contents) {
+                getContents(path+"/"+s);
+            }
+        }
+        if(file.isFile() ) {
+            if (file.getName().substring(file.getName().lastIndexOf(".")).equals(".java")) {
+                try (BufferedReader reader = new BufferedReader(new FileReader(path))) {
+                    pw.write("##### " + path + "\n```java\n");
+                    String line = reader.readLine();
+                    while (line != null) {
+                        pw.write(line + "\n");
+                        line = reader.readLine();
+                    }
+                    pw.write("```\n");
 
-        searchInDir("C:\\Users\\Iluuusha\\Desktop\\учеба\\mirea_java\\src");
-        try(PrintWriter writer = new PrintWriter(new FileWriter("C:\\Users\\Iluuusha\\Desktop\\учеба\\mirea_java\\result.md")))
-        {
-            writer.print(result);
+
+                } catch (FileNotFoundException e) {
+                    e.printStackTrace();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+
+            }
         }
-        catch(FileNotFoundException ex)
-        {
-            System.out.println("File not found");
-            ex.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+
+    }
+
+    public static void main(String[] args) {
+        Path filePath = Paths.get("").toAbsolutePath();
+        getContents(filePath.toString()+"/src");
+        pw.close();
     }
 }
