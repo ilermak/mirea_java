@@ -48,7 +48,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ex_10" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propGUI" />
   </component>
   <component name="RecentsManager">
@@ -56,13 +56,13 @@
       <recent name="C:\Users\Iluuusha\Desktop\учеба\mirea_java\src\ex_10" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex_14.Main" />
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex_19_20.Client" />
       <module name="mirea_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex_14.*" />
+          <option name="PATTERN" value="ex_19_20.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Regex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex_14.Regex" />
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex_19_20.Server" />
       <module name="mirea_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex_14.*" />
+          <option name="PATTERN" value="ex_19_20.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,19 +134,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Regex" />
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.WithoutRegex" />
       <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.Main (4)" />
+      <item itemvalue="Application.WithoutRegex" />
+      <item itemvalue="Application.Server" />
+      <item itemvalue="Application.Client" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Server" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.WithoutRegex" />
-        <item itemvalue="Application.Regex" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -194,6 +194,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="393" y="165" key="#Notifications/0.0.1280.680@0.0.1280.680" timestamp="1600616457505" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605472755634">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1605472755634" />
     <state x="424" y="235" width="432" height="216" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1601205723319">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -206,30 +210,30 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1602437393516" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1602187679546">
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1604915378864">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1602187679546" />
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1604915378864" />
     <state x="408" y="219" key="Github.ShareDialog" timestamp="1601206098744">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="408" y="219" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1601206098744" />
-    <state width="1237" height="125" key="GridCell.Tab.0.bottom" timestamp="1604866636995">
+    <state width="1237" height="125" key="GridCell.Tab.0.bottom" timestamp="1605472875618">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="125" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1604866636995" />
-    <state width="1237" height="125" key="GridCell.Tab.0.center" timestamp="1604866636991">
+    <state width="1237" height="125" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605472875618" />
+    <state width="1237" height="125" key="GridCell.Tab.0.center" timestamp="1605472875617">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="125" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1604866636991" />
-    <state width="1237" height="125" key="GridCell.Tab.0.left" timestamp="1604866636991">
+    <state width="1237" height="125" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1605472875617" />
+    <state width="1237" height="125" key="GridCell.Tab.0.left" timestamp="1605472875617">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="125" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1604866636991" />
-    <state width="1237" height="125" key="GridCell.Tab.0.right" timestamp="1604866636991">
+    <state width="1237" height="125" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1605472875617" />
+    <state width="1237" height="125" key="GridCell.Tab.0.right" timestamp="1605472875618">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="125" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1604866636991" />
+    <state width="1237" height="125" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1605472875618" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1602439853977">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
