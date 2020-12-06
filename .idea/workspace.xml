@@ -63,7 +63,7 @@
       <recent name="C:\Users\Iluuusha\Desktop\учеба\mirea_java\src\ex_10" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Client" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ex_19_20.Client" />
       <module name="mirea_java" />
@@ -90,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex_17_18.Main" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex_25_26.Main" />
       <module name="mirea_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex_17_18.*" />
+          <option name="PATTERN" value="ex_25_26.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,19 +141,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main (4)" />
       <item itemvalue="Application.Server" />
       <item itemvalue="Application.Client" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Main (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Server" />
-        <item itemvalue="Application.Main (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -229,22 +229,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="408" y="219" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1601206098744" />
-    <state width="1237" height="168" key="GridCell.Tab.0.bottom" timestamp="1606073826524">
+    <state width="1237" height="168" key="GridCell.Tab.0.bottom" timestamp="1606672298563">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="168" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1606073826524" />
-    <state width="1237" height="168" key="GridCell.Tab.0.center" timestamp="1606073826524">
+    <state width="1237" height="168" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1606672298563" />
+    <state width="1237" height="168" key="GridCell.Tab.0.center" timestamp="1606672298563">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="168" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1606073826524" />
-    <state width="1237" height="168" key="GridCell.Tab.0.left" timestamp="1606073826524">
+    <state width="1237" height="168" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1606672298563" />
+    <state width="1237" height="168" key="GridCell.Tab.0.left" timestamp="1606672298563">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="168" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1606073826524" />
-    <state width="1237" height="168" key="GridCell.Tab.0.right" timestamp="1606073826524">
+    <state width="1237" height="168" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1606672298563" />
+    <state width="1237" height="168" key="GridCell.Tab.0.right" timestamp="1606672298563">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="168" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1606073826524" />
+    <state width="1237" height="168" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1606672298563" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1606071564046">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
