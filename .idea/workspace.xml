@@ -63,7 +63,7 @@
       <recent name="C:\Users\Iluuusha\Desktop\учеба\mirea_java\src\ex_10" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Client" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ex_19_20.Client" />
       <module name="mirea_java" />
@@ -103,25 +103,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex_27_28.Main" />
+      <module name="mirea_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex_27_28.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="ex_2.Dog" />
       <module name="mirea_java" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex_19_20.Server" />
-      <module name="mirea_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ex_19_20.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -141,19 +141,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Server" />
       <item itemvalue="Application.Client" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.Main (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Server" />
       </list>
     </recent_temporary>
   </component>
@@ -213,10 +213,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="424" y="235" width="432" height="216" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1601205723319" />
-    <state x="214" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1604253361008">
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1608199738734">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="214" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1604253361008" />
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1608199738734" />
     <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602437393516">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -229,22 +229,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="408" y="219" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1601206098744" />
-    <state width="1237" height="168" key="GridCell.Tab.0.bottom" timestamp="1606672298563">
+    <state width="1237" height="168" key="GridCell.Tab.0.bottom" timestamp="1608199885549">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="168" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1606672298563" />
-    <state width="1237" height="168" key="GridCell.Tab.0.center" timestamp="1606672298563">
+    <state width="1237" height="168" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1608199885549" />
+    <state width="1237" height="168" key="GridCell.Tab.0.center" timestamp="1608199885549">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="168" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1606672298563" />
-    <state width="1237" height="168" key="GridCell.Tab.0.left" timestamp="1606672298563">
+    <state width="1237" height="168" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1608199885549" />
+    <state width="1237" height="168" key="GridCell.Tab.0.left" timestamp="1608199885549">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="168" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1606672298563" />
-    <state width="1237" height="168" key="GridCell.Tab.0.right" timestamp="1606672298563">
+    <state width="1237" height="168" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1608199885549" />
+    <state width="1237" height="168" key="GridCell.Tab.0.right" timestamp="1608199885549">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="168" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1606672298563" />
+    <state width="1237" height="168" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1608199885549" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1606071564046">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
