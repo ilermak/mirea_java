@@ -25,31 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01bd5997-0c49-45a9-a1af-1bf2e124dd1c" name="Default Changelist" comment="))">
-      <change afterPath="$PROJECT_DIR$/src/ex_25_26/KeyValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_27_28/ReflectionTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_27_28/TypeOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_27_28/Worker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mirea_java/ex_25_26/ISuperHashMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mirea_java/ex_25_26/ISuperHashMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mirea_java/ex_25_26/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mirea_java/ex_25_26/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mirea_java/ex_25_26/SuperHashMap$HashIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mirea_java/ex_25_26/SuperHashMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mirea_java/ex_25_26/SuperHashMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mirea_java/ex_25_26/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mirea_java/ex_27_28/Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mirea_java/ex_27_28/Data.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mirea_java/ex_27_28/Main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mirea_java/ex_27_28/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mirea_java/ex_27_28/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mirea_java/ex_27_28/Methods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mirea_java/ex_27_28/Tasks.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex_25_26/ISuperHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex_25_26/ISuperHashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex_25_26/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex_25_26/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex_25_26/SuperHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex_25_26/SuperHashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex_25_26/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex_27_28/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex_27_28/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex_27_28/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex_27_28/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex_27_28/Methods.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex_27_28/Tasks.java" beforeDir="false" />
-    </list>
+    <list default="true" id="01bd5997-0c49-45a9-a1af-1bf2e124dd1c" name="Default Changelist" comment="))" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -260,22 +236,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="408" y="219" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1601206098744" />
-    <state width="1237" height="168" key="GridCell.Tab.0.bottom" timestamp="1608391050531">
+    <state width="1237" height="168" key="GridCell.Tab.0.bottom" timestamp="1608391226088">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="168" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1608391050531" />
-    <state width="1237" height="168" key="GridCell.Tab.0.center" timestamp="1608391050531">
+    <state width="1237" height="168" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1608391226088" />
+    <state width="1237" height="168" key="GridCell.Tab.0.center" timestamp="1608391226087">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="168" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1608391050531" />
-    <state width="1237" height="168" key="GridCell.Tab.0.left" timestamp="1608391050530">
+    <state width="1237" height="168" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1608391226087" />
+    <state width="1237" height="168" key="GridCell.Tab.0.left" timestamp="1608391226087">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="168" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1608391050530" />
-    <state width="1237" height="168" key="GridCell.Tab.0.right" timestamp="1608391050531">
+    <state width="1237" height="168" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1608391226087" />
+    <state width="1237" height="168" key="GridCell.Tab.0.right" timestamp="1608391226088">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="168" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1608391050531" />
+    <state width="1237" height="168" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1608391226088" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1606071564046">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
