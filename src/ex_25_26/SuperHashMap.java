@@ -2,107 +2,84 @@ package ex_25_26;
 
 import java.util.Iterator;
 
-public class SuperHashMap<K,V> implements ISuperHashMap<K,V> {
-    private final int capacity = 128;
-    Test<K,V>[] buckets;
-    Test<K,V> curPtr;
-    int bucketIndex = 0;
+import java.util.ArrayList;
 
+public class SuperHashMap<K, V> implements ISuperHashMap<K, V> {
+    private ArrayList<ArrayList<KeyValue<K, V>>> superHashMap;
+    private int size = 128;
 
     public SuperHashMap() {
-        buckets = new Test[capacity];
-    }
-
-    public int keyHash(K key){
-        return key.hashCode()>>2;
+        superHashMap = new ArrayList<>();
+        for (int i = 0; i < size; i++) {
+            superHashMap.add(new ArrayList<>());
+        }
     }
 
     @Override
     public void add(K key, V value) {
-        int bucket = keyHash(key)%capacity;
-        Test<K,V> ptr = buckets[bucket];
-        if(ptr != null){
-            while(ptr.hasNext()) ptr = ptr.getNext();
-            ptr.setNext(new Test<>(key,value));
-        } else {
-            buckets[bucket] = new Test<>(key,value);
+        System.out.println(key.hashCode());
+        int index = Math.abs(key.hashCode() % superHashMap.size());
+        System.out.println(index);
+        if(superHashMap.get(index).size()==0){
+            superHashMap.get(index).add(new KeyValue<>(key, value));
         }
-        int i = 0;
-        while(buckets[i]==null) i++;
-        curPtr = buckets[i];
-        bucketIndex=i;
+        else{
+            for (int i = 0; i < superHashMap.get(index).size(); i++) {
+                if(superHashMap.get(index).get(i).getKey().equals(key)){
+                    superHashMap.get(index).set(i, new KeyValue<>(key, value));
+                    break;
+                }
+            }
+        }
     }
 
     @Override
     public V get(K key) {
-        int bucket = keyHash(key)%capacity;
-        Test<K,V> ptr = buckets[bucket];
-        if(ptr!=null){
-            while(!key.equals(ptr.getKey())) {
-                ptr = ptr.getNext();
-                if(ptr==null) break;
+        int index = Math.abs(key.hashCode() % superHashMap.size());
+        for (int i = 0; i < superHashMap.get(index).size(); i++) {
+            if(superHashMap.get(index).get(i).getKey().equals(key)){
+                return superHashMap.get(index).get(i).getValue();
             }
         }
-        if(ptr!=null) return ptr.getValue();
         return null;
     }
 
     @Override
     public V remove(K key) {
-        int bucket = keyHash(key)%capacity;
-        Test<K,V> ptr = buckets[bucket];
-        if(ptr==null) return null;
-        if (key.equals(ptr.getKey())) {
-            buckets[bucket] = ptr.getNext();
-            return ptr.getValue();
+        int index = Math.abs(key.hashCode() % superHashMap.size());
+        for (int i = 0; i < superHashMap.get(index).size(); i++) {
+            if(superHashMap.get(index).get(i).getKey().equals(key)){
+                Object temp = superHashMap.get(index).get(i).getValue();
+                superHashMap.get(index).remove(superHashMap.get(index).get(i));
+                return (V) temp;
+            }
         }
-        while(!key.equals(ptr.getNext().getKey())) {
-            ptr = ptr.getNext();
-            if(ptr.getNext() == null) break;
-        }
-        return ptr.getValue();
+        return null;
     }
-    class HashIterator implements Iterator<Test<K, V>> {
-        private final SuperHashMap<K,V> ht;
 
-        HashIterator(SuperHashMap<K,V> ht){
-            this.ht = ht;
-        }
+    @Override
+    public Iterator<V> iterator() {
+        return new CustomIterator();
+    }
+
+    public class CustomIterator implements Iterator<V>{
+        private int currentArray = 0, currentIndex = 0;
+
         @Override
         public boolean hasNext() {
-            if(curPtr!=null) {
-                if (curPtr.getNext() != null) {
-                    return true;
-                } else if (bucketIndex < ht.capacity - 1) {
-
-                    return buckets[bucketIndex] != null;
+            if (currentIndex == superHashMap.get(currentArray).size()) {
+                currentIndex = 0;
+                currentArray++;
+                while (currentArray < size && superHashMap.get(currentArray).size() == 0) {
+                    currentArray++;
                 }
             }
-            int i = 0;
-            while(i<capacity-1&&buckets[i]==null) i++;
-            curPtr = buckets[i];
-            bucketIndex=i;
-            return false;
+            return currentArray < size;
         }
 
         @Override
-        public Test<K, V> next() {
-            if (curPtr.getNext() != null) {
-                return curPtr = curPtr.getNext();
-            } else
-            {
-                Test k = buckets[bucketIndex];
-                int i = bucketIndex+1;
-                while(i<capacity-1&&buckets[i]==null) i++;
-                curPtr = buckets[i];
-                bucketIndex=i;
-                return k;
-            }
+        public V next() {
+            return superHashMap.get(currentArray).get(currentIndex++).getValue();
         }
     }
-    @Override
-    public Iterator<Test<K, V>> iterator() {
-        return new HashIterator(this);
-    }
-
 }

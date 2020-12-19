@@ -25,7 +25,31 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01bd5997-0c49-45a9-a1af-1bf2e124dd1c" name="Default Changelist" comment="))" />
+    <list default="true" id="01bd5997-0c49-45a9-a1af-1bf2e124dd1c" name="Default Changelist" comment="))">
+      <change afterPath="$PROJECT_DIR$/src/ex_25_26/KeyValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_27_28/ReflectionTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_27_28/TypeOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_27_28/Worker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mirea_java/ex_25_26/ISuperHashMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mirea_java/ex_25_26/ISuperHashMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mirea_java/ex_25_26/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mirea_java/ex_25_26/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mirea_java/ex_25_26/SuperHashMap$HashIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mirea_java/ex_25_26/SuperHashMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mirea_java/ex_25_26/SuperHashMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mirea_java/ex_25_26/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mirea_java/ex_27_28/Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mirea_java/ex_27_28/Data.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mirea_java/ex_27_28/Main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mirea_java/ex_27_28/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mirea_java/ex_27_28/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mirea_java/ex_27_28/Methods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mirea_java/ex_27_28/Tasks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex_25_26/ISuperHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex_25_26/ISuperHashMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex_25_26/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex_25_26/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex_25_26/SuperHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex_25_26/SuperHashMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex_25_26/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex_27_28/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex_27_28/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex_27_28/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex_27_28/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex_27_28/Methods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex_27_28/Tasks.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +58,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -42,6 +67,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1hUxahfHsZnoEx7fT2L11gsy0kS" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -59,6 +87,9 @@
     <property name="settings.editor.selected.configurable" value="project.propGUI" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ex_27_28" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Iluuusha\Desktop\учеба\mirea_java\src\ex_10" />
     </key>
@@ -90,19 +121,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex_25_26.Main" />
-      <module name="mirea_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ex_25_26.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ex_27_28.Main" />
       <module name="mirea_java" />
@@ -122,6 +140,19 @@
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex_25_26.Main" />
+      <module name="mirea_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex_25_26.ISuperHashMap" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -213,38 +244,38 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="424" y="235" width="432" height="216" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1601205723319" />
-    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1608199738734">
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1608388717618">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1608199738734" />
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1608388717618" />
     <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602437393516">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1602437393516" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1604915378864">
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1608201052049">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1604915378864" />
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1608201052049" />
     <state x="408" y="219" key="Github.ShareDialog" timestamp="1601206098744">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="408" y="219" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1601206098744" />
-    <state width="1237" height="168" key="GridCell.Tab.0.bottom" timestamp="1608199885549">
+    <state width="1237" height="168" key="GridCell.Tab.0.bottom" timestamp="1608391050531">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="168" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1608199885549" />
-    <state width="1237" height="168" key="GridCell.Tab.0.center" timestamp="1608199885549">
+    <state width="1237" height="168" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1608391050531" />
+    <state width="1237" height="168" key="GridCell.Tab.0.center" timestamp="1608391050531">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="168" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1608199885549" />
-    <state width="1237" height="168" key="GridCell.Tab.0.left" timestamp="1608199885549">
+    <state width="1237" height="168" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1608391050531" />
+    <state width="1237" height="168" key="GridCell.Tab.0.left" timestamp="1608391050530">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="168" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1608199885549" />
-    <state width="1237" height="168" key="GridCell.Tab.0.right" timestamp="1608199885549">
+    <state width="1237" height="168" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1608391050530" />
+    <state width="1237" height="168" key="GridCell.Tab.0.right" timestamp="1608391050531">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="168" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1608199885549" />
+    <state width="1237" height="168" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1608391050531" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1606071564046">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

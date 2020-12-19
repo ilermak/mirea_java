@@ -1,19 +1,18 @@
 package ex_27_28;
 
-import java.util.List;
+import java.util.ArrayList;
 
 public class Data {
+    ArrayList<Integer> numbers;
+    ArrayList<String> words;
+    String delimeter;
 
-    private List<String> words;
-    private List<Integer> numbers;
-    private String delimeter;
-
-    public List<String> getWords() {
-        return words;
+    public ArrayList<Integer> getNumbers() {
+        return numbers;
     }
 
-    public List<Integer> getNumbers() {
-        return numbers;
+    public ArrayList<String> getWords() {
+        return words;
     }
 
     public String getDelimeter() {

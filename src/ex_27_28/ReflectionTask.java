@@ -1,6 +1,6 @@
 package ex_27_28;
 
-public class Tasks {
+public class ReflectionTask {
     private String type;
     private Data data;
     private int id;
@@ -19,9 +19,5 @@ public class Tasks {
 
     public int getId() {
         return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 }
